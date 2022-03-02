@@ -17,7 +17,3 @@ tag {
   pointer-events: none;
 }
 ```
-
-```html
-<img loading="lazy" /> <img loading="eager" />
-```
