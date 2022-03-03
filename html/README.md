@@ -45,3 +45,7 @@
   <option value="England"></option>
 </datalist>
 ```
+
+```html
+<a href="file.pdf" download="downloaded_file.pdf">download file</a>
+```
