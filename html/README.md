@@ -1,10 +1,14 @@
 # HTML
 
+## Lazy Loading
+
 ```html
 <!-- prevents loading of images that aren't really needed on the screen immediately -->
 <!-- as you scroll down or closer to the image, the image begins to load -->
 <img loading="lazy" /> <img loading="eager" />
 ```
+
+## Refresh Page
 
 ```html
 <!-- redirects the user to the provided URL in 4 seconds -->
@@ -14,6 +18,8 @@
 </head>
 ```
 
+## Picture Element
+
 ```html
 <!-- add multiple images for different screen sizes -->
 <picture>
@@ -22,6 +28,8 @@
   <img src="default.png" />
 </picture>
 ```
+
+## Base Element
 
 ```html
 <!-- for when anchor tags redirect to urls with the same base address -->
@@ -34,6 +42,8 @@
 </body>
 ```
 
+## Datalist
+
 ```html
 <!-- searchable dropdown list -->
 <label for="country">Choose your country</label>
@@ -45,6 +55,8 @@
   <option value="England"></option>
 </datalist>
 ```
+
+## Download File
 
 ```html
 <a href="file.pdf" download="downloaded_file.pdf">download file</a>
