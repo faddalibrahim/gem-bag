@@ -17,3 +17,9 @@ tag {
   pointer-events: none;
 }
 ```
+
+```css
+tag {
+  width: fill-available | min-content | max-content | fit-content;
+}
+```
