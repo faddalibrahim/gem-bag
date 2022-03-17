@@ -61,3 +61,12 @@
 ```html
 <a href="file.pdf" download="downloaded_file.pdf">download file</a>
 ```
+
+## Prevent Zooming in
+
+```html
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, user-scalable=0"
+/>
+```
