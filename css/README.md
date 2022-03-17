@@ -23,3 +23,15 @@ tag {
   width: fill-available | min-content | max-content | fit-content;
 }
 ```
+
+## attr
+
+```html
+<div data="hello">hello</div>
+```
+
+```css
+div:after {
+  content: attr(data);
+}
+```
