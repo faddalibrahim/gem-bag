@@ -70,3 +70,15 @@
   content="width=device-width, initial-scale=1, user-scalable=0"
 />
 ```
+
+## Center
+
+```html
+<center>i will be centered</center>
+```
+
+## Data
+
+```html
+<tag data-anything="hello"></tag>
+```
