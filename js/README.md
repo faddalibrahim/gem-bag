@@ -27,5 +27,5 @@ form.reset();
 ## Get form fields by "name" attribute
 
 ```js
-form.author.value;
+form.name_attribute_value.value;
 ```
