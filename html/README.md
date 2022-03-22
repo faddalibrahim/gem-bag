@@ -82,3 +82,9 @@
 ```html
 <tag data-anything="hello"></tag>
 ```
+
+## Reset form
+
+```html
+<input type="reset" />
+```
