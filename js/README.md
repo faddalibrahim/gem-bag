@@ -17,3 +17,15 @@ document.documentElement === <html></html>;
 ```js
 :root === html : document.querySelector(":root")
 ```
+
+## Reset a form
+
+```js
+form.reset();
+```
+
+## Get form fields by "name" attribute
+
+```js
+form.author.value;
+```
