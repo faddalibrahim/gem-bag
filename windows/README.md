@@ -16,3 +16,5 @@ emoji panel
 
 win + ,
 peek desktop
+
+win + shift + s
