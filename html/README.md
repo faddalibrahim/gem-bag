@@ -1,5 +1,22 @@
 # HTML
 
+## Semantics
+
+```html
+<header />
+<nav />
+
+<main />
+<article />
+<section />
+<aside />
+
+<footer />
+
+<small />
+<center />
+```
+
 ## Lazy Loading
 
 ```html
@@ -81,6 +98,20 @@
 
 ```html
 <tag data-anything="hello"></tag>
+```
+
+**Javascript access**  
+tag.dataset.anything
+
+**CSS access**  
+tag::before{ content:attr(anything) }
+
+**Change style according to attribute value**
+
+```css
+tag[anything="hello"] {
+  color: red;
+}
 ```
 
 ## Reset form
