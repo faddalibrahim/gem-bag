@@ -35,3 +35,19 @@ div:after {
   content: attr(data);
 }
 ```
+
+# Form Elements
+
+```css
+checkbox:checked + label {
+  text-decoration: strikethrough;
+}
+
+radio:checked + label {
+  color: red;
+}
+
+input:focus + label {
+  color: red;
+}
+```
