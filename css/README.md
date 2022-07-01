@@ -1,5 +1,20 @@
 # CSS GEMS
 
+## Selectors
+
+```
+~
++
+>
+```
+
+```css
+scroll-bahavior: smooth;
+
+used with <a href="footer"/ > <footer id="footer"/ > also with :target {
+}
+```
+
 ```css
 input {
   accent-color: red;
@@ -49,5 +64,15 @@ radio:checked + label {
 
 input:focus + label {
   color: red;
+}
+
+form div:focus-within header {
+  background-color: orange;
+}
+
+button:active {
+}
+
+button:focus {
 }
 ```

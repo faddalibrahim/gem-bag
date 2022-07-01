@@ -119,3 +119,7 @@ tag[anything="hello"] {
 ```html
 <input type="reset" />
 ```
+
+```html
+<div style="color: --var(--app-theme)" count="{}">hello</div>
+```
