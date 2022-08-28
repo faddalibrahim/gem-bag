@@ -1,8 +1,20 @@
 # Python & Javascript Semantic Parallels
 
-## Lambda & Anonymous Arrow Functions
+> ## 1. Lambda & Anonymous Arrow Functions
 
-## Higher Order Functions (map,reduce,filter)
+```py
+sum_pair = lambda x,y : x + y
+
+print(sum_pair(5,3)) # 8
+```
+
+```js
+let sum_pair = (x, y) => x + y;
+
+console.log(sum_pair(5, 3)); // 8
+```
+
+> ## 2. Higher Order Functions (map,reduce,filter)
 
 ### map
 
@@ -79,7 +91,7 @@ let result = nums.reduce(sum, 0);
 console.log(result); // 15
 ```
 
-## List Comprehension & Spread Operator
+> ## 3. List Comprehension & Spread Operator
 
 ```js
 const A = [1, 2, 3, 4, 5];
@@ -95,7 +107,7 @@ B = [num for num in A]
 print(B) # [1,2,3,4,5]
 ```
 
-## Unpacking & Object Destructuring
+> ## 4. Unpacking & Object Destructuring
 
 ```py
 student = ["Dolores Abernathy", 21]
@@ -114,11 +126,11 @@ console.log(name); // Dolores Abernathy
 console.log(age); // 21
 ```
 
-## .items() && object.entries()
+> ## 5. items() && object.entries()
 
 ```js
 const student = {
-  name: "Dolores Abernaty",
+  name: "Dolores Abernathy",
   age: 21,
 };
 
@@ -145,7 +157,7 @@ for key,value in student.items():
 
 ```
 
-## Swapping Variables
+> ## 6. Swapping Variables
 
 ```py
 first = "i am first";
@@ -170,7 +182,7 @@ console.log(first); // i am second
 console.log(second); // i am first
 ```
 
-## Module Imports
+> ## 7. Module Imports
 
 ### namespace imports
 
@@ -221,9 +233,23 @@ from greetings import hello as hell, hi as hy
 import { hello as hell, hi as hy } from "./greetings.js";
 ```
 
-## Backticks && Docstrings
+> ## 8. Backticks && Docstrings
 
-## Ternary
+both render multiline strings
+
+```py
+name = "Faddal Ibrahim"
+
+print("""hello {}""".format(name))
+```
+
+```js
+let name = "Faddal Ibrahim";
+
+console.log(`hello ${name}`);
+```
+
+> ## 9. Ternary
 
 ```py
 age = 21
