@@ -107,7 +107,31 @@ B = [num for num in A]
 print(B) # [1,2,3,4,5]
 ```
 
-> ## 4. Unpacking & Object Destructuring
+> ## 4. \*Args & Rest Operator
+
+```py
+def multiply(*nums):
+  product = 1
+
+  for num in nums:
+    product *= num
+
+  return product
+```
+
+```js
+function multiply(...nums) {
+  let product = 1;
+
+  for (num of nums) {
+    product *= num;
+  }
+
+  return product;
+}
+```
+
+> ## 5. Unpacking & Object Destructuring
 
 ```py
 student = ["Dolores Abernathy", 21]
@@ -126,7 +150,7 @@ console.log(name); // Dolores Abernathy
 console.log(age); // 21
 ```
 
-> ## 5. items() && object.entries()
+> ## 6. items() && object.entries()
 
 ```js
 const student = {
@@ -157,7 +181,7 @@ for key,value in student.items():
 
 ```
 
-> ## 6. Swapping Variables
+> ## 7. Swapping Variables
 
 ```py
 first = "i am first";
@@ -182,7 +206,7 @@ console.log(first); // i am second
 console.log(second); // i am first
 ```
 
-> ## 7. Module Imports
+> ## 8. Module Imports
 
 ### namespace imports
 
@@ -233,7 +257,7 @@ from greetings import hello as hell, hi as hy
 import { hello as hell, hi as hy } from "./greetings.js";
 ```
 
-> ## 8. Backticks && Docstrings
+> ## 9. Backticks && Docstrings
 
 both render multiline strings
 
@@ -249,7 +273,7 @@ let name = "Faddal Ibrahim";
 console.log(`hello ${name}`);
 ```
 
-> ## 9. Ternary
+> ## 10. Ternary
 
 ```py
 age = 21
